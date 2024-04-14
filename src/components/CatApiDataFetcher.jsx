@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback, useReducer } from 'react';
+import { useEffect, useCallback, useReducer } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
-import Loading from './Loading'; // Import the Loading component
-import Card from './Card'; // Import the Card component
+import Loading from './Loading';
+import Card from './Card';
 
 const initialState = {
   randomBreed: null,

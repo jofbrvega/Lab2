@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const StyledFooter = styled.footer`
@@ -11,8 +10,7 @@ const StyledFooter = styled.footer`
 const Footer = () => {
   return (
     <StyledFooter>
-      <p>© 2024 My App. All rights reserved.</p>
-      {/* Social media links or other relevant information */}
+      <p>© 2024 My Cat App. All rights reserved.</p>
     </StyledFooter>
   );
 };
